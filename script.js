@@ -28,25 +28,6 @@ function createBalloons(num) {
   }
 }
 
-<html>
-<body>
-
-<p>Click the "Try it" button to create a BUTTON element with a "Click me" text.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<script>
-function myFunction() {
-  var x = document.createElement("BUTTON");
-  var t = document.createTextNode("Click me");
-  x.appendChild(t);
-  document.body.appendChild(x);
-}
-</script>
-
-</body>
-</html>
-
 function createName() {
   var balloonContainer = document.getElementById("balloon-container");
   var heading = document.createElement("h1");
@@ -76,6 +57,17 @@ function createName() {
   document.body.append(img_2);
   document.body.append(img_3);
   document.body.append(img_4);
+  var button = document.createElement("button");
+button.innerHTML = "Do Something";
+
+// 2. Append somewhere
+var body = document.getElementsByTagName("body")[0];
+body.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("did something");
+});
   audio = document.createElement("audio");
   audio.src = "./atrangi.mp3";
   audio.play();
