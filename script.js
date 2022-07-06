@@ -50,6 +50,7 @@ function createName() {
   // 3. Add event handler
   button.addEventListener ("click", function() {
   alert("did something");
+  document.location.href = "index
 });
   
   document.querySelector(".naga").style.bottom = "20px";
