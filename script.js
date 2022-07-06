@@ -57,7 +57,7 @@ function createName() {
   document.body.append(img_3);
   document.body.append(img_4);
   audio = document.createElement("audio");
-  audio.src = "./Aww_Tera.mp3";
+  audio.src = "./atrangi.mp3";
   audio.play();
   setTimeout(function () {
     $("body").fireworks();
