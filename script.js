@@ -38,13 +38,9 @@ function createName() {
   document.body.style.backgroundImage = "url('dev.jpg')";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
-  
-  var button = document.createElement("button");
-  button.innerHTML = "Do Something";
-
-  // 2. Append somewhere
-  var body = document.getElementsByTagName("body")[0];
-  body.appendChild(button);
+  let btn = document.createElement("button");
+  btn.innerHTML = "Click Me";
+  document.body.appendChild(btn);
   
   document.querySelector(".naga").style.bottom = "20px";
   audio = document.createElement("audio");
