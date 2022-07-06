@@ -17,19 +17,6 @@ function getRandomStyles() {
     animation: float ${dur}s ease-in 1 forwards
     `;
 }
-document.addEventListener('DOMContentLoaded', function() {
-    var button = document.createElement('button');
-    button.type = 'button';
-    button.innerHTML = 'Press me';
-    button.className = 'btn-styled';
- 
-    button.onclick = function() {
-        // …
-    };
- 
-    var container = document.getElementById('container');
-    container.appendChild(button);
-}, false);
 
 function createBalloons(num) {
   var balloonContainer = document.getElementById("balloon-container");
