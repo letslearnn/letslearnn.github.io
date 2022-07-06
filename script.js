@@ -31,11 +31,6 @@ function createBalloons(num) {
 function createName() {
   var balloonContainer = document.getElementById("balloon-container");
   var heading = document.createElement("h1");
-  heading.innerHTML = "Happy Birthday Devaaaaaaa";
-  heading.className = "heading";
-  document.body.append(heading);
-  balloonContainer.remove();
-  
   document.addEventListener('DOMContentLoaded', function() {
     var button = document.createElement('button');
     button.type = 'button';
@@ -49,6 +44,12 @@ function createName() {
     var container = document.getElementById('container');
     container.appendChild(button);
 }, false);
+  
+  heading.innerHTML = "Happy Birthday Devaaaaaaa";
+  heading.className = "heading";
+  document.body.append(heading);
+  balloonContainer.remove();
+  
   img_1 = document.createElement("img");
   img_1.src = "anime.jpg";
   img_1.className = "prabha_img img_1";
