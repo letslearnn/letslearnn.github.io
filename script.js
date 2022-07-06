@@ -49,7 +49,7 @@ function createName() {
 
   // 3. Add event handler
   button.addEventListener ("click", function() {
-  location.href = 'index.html';
+  location.href = 'slide.html';
 });
   
   document.querySelector(".naga").style.bottom = "20px";
