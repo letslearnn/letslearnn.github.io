@@ -38,12 +38,10 @@ function createName() {
   document.body.style.backgroundImage = "url('dev.jpg')";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
-  let btn = document.createElement("button");
-  btn.innerHTML = "Click Me";
-  document.body.appendChild(btn);
+  
   
   var button = document.createElement("button");
-  button.innerHTML = "Do Something";
+  button.innerHTML = "click me to watch different phases of Devansh Mittal";
 
   // 2. Append somewhere
   var body = document.getElementsByTagName("body")[0];
