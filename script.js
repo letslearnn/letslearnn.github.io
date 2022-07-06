@@ -31,7 +31,7 @@ function createBalloons(num) {
 function createName() {
   var balloonContainer = document.getElementById("balloon-container");
   var heading = document.createElement("h1");
-  heading.innerHTML = "Happy Birthday Prabhas";
+  heading.innerHTML = "Happy Birthday Devaaaaaaa";
   heading.className = "heading";
   document.body.append(heading);
   balloonContainer.remove();
