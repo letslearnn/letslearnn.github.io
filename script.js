@@ -35,28 +35,12 @@ function createName() {
   heading.className = "heading";
   document.body.append(heading);
   balloonContainer.remove();
-  
-  img_1 = document.createElement("img");
-  img_1.src = "anime.jpg";
-  img_1.className = "prabha_img img_1";
-
-  img_2 = document.createElement("img");
-  img_2.src = "candles.jpg";
-  img_2.className = "prabha_img img_2";
-
-  img_3 = document.createElement("img");
-  img_3.src = "gym.jpg";
-  img_3.className = "prabha_img img_3";
-
-  img_4 = document.createElement("img");
-  img_4.src = "yoga.jpg";
-  img_4.className = "prabha_img img_4";
-
   document.querySelector(".naga").style.bottom = "20px";
-  document.body.append(img_1);
-  document.body.append(img_2);
-  document.body.append(img_3);
-  document.body.append(img_4);
+  document.body.style.backgroundImage = "url('dev.jpg')";
+        document.body.style.backgroundRepeat = "no-repeat";
+        document.body.style.backgroundSize = "cover";
+  
+  
   const button = document.createElement('button')
   button.innerText = 'Can you click me?'
   audio = document.createElement("audio");
