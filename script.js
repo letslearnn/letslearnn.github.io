@@ -35,7 +35,7 @@ function createName() {
   heading.className = "heading";
   document.body.append(heading);
   balloonContainer.remove();
-  document.body.style.backgroundImage = "url('image.png')";
+  document.body.style.backgroundImage = "url('dev.jpg')";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
   
