@@ -57,17 +57,8 @@ function createName() {
   document.body.append(img_2);
   document.body.append(img_3);
   document.body.append(img_4);
-  var button = document.createElement("button");
-button.innerHTML = "Do Something";
-
-// 2. Append somewhere
-var body = document.getElementsByTagName("body")[0];
-body.appendChild(button);
-
-// 3. Add event handler
-button.addEventListener ("click", function() {
-  alert("did something");
-});
+  const button = document.createElement('button')
+  button.innerText = 'Can you click me?'
   audio = document.createElement("audio");
   audio.src = "./atrangi.mp3";
   audio.play();
