@@ -35,7 +35,7 @@ function createName() {
   heading.className = "heading";
   document.body.append(heading);
   balloonContainer.remove();
-  //document.querySelector(".naga").style.bottom = "20px";
+  document.querySelector(".naga").style.bottom = "20px";
   const button = document.createElement('button')
   button.innerText = 'Can you click me?'
   audio = document.createElement("audio");
