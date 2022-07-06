@@ -35,6 +35,20 @@ function createName() {
   heading.className = "heading";
   document.body.append(heading);
   balloonContainer.remove();
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var button = document.createElement('button');
+    button.type = 'button';
+    button.innerHTML = 'Press me';
+    button.className = 'btn-styled';
+ 
+    button.onclick = function() {
+        // …
+    };
+ 
+    var container = document.getElementById('container');
+    container.appendChild(button);
+}, false);
   img_1 = document.createElement("img");
   img_1.src = "anime.jpg";
   img_1.className = "prabha_img img_1";
