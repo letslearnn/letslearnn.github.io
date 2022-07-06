@@ -35,6 +35,10 @@ function createName() {
   heading.className = "heading";
   document.body.append(heading);
   balloonContainer.remove();
+  document.body.style.backgroundImage = "url('image.png')";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundSize = "cover";
+  
   document.querySelector(".naga").style.bottom = "20px";
   const button = document.createElement('button')
   button.innerText = 'Can you click me?'
