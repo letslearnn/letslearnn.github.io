@@ -63,6 +63,26 @@ function createName() {
   setTimeout(function () {
     $("body").fireworks();
   }, 3000);
+  
+ <html>
+<body>
+
+<p>Click the "Try it" button to create a BUTTON element with a "Click me" text.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("BUTTON");
+  var t = document.createTextNode("Click me");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>
+
 }
 
 header = document.querySelector(".header");
