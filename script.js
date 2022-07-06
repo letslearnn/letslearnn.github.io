@@ -37,19 +37,19 @@ function createName() {
   document.body.append(heading);
   balloonContainer.remove();
   img_1 = document.createElement("img");
-  img_1.src = "images/anime.jpg";
+  img_1.src = "anime.jpg";
   img_1.className = "prabha_img img_1";
 
   img_2 = document.createElement("img");
-  img_2.src = "images/candles.jpg";
+  img_2.src = "candles.jpg";
   img_2.className = "prabha_img img_2";
 
   img_3 = document.createElement("img");
-  img_3.src = "images/gym.jpg";
+  img_3.src = "gym.jpg";
   img_3.className = "prabha_img img_3";
 
   img_4 = document.createElement("img");
-  img_4.src = "images/yoga.jpg";
+  img_4.src = "yoga.jpg";
   img_4.className = "prabha_img img_4";
 
   document.querySelector(".naga").style.bottom = "20px";
