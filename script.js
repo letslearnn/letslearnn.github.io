@@ -17,6 +17,19 @@ function getRandomStyles() {
     animation: float ${dur}s ease-in 1 forwards
     `;
 }
+document.addEventListener('DOMContentLoaded', function() {
+    var button = document.createElement('button');
+    button.type = 'button';
+    button.innerHTML = 'Press me';
+    button.className = 'btn-styled';
+ 
+    button.onclick = function() {
+        // …
+    };
+ 
+    var container = document.getElementById('container');
+    container.appendChild(button);
+}, false);
 
 function createBalloons(num) {
   var balloonContainer = document.getElementById("balloon-container");
@@ -31,20 +44,6 @@ function createBalloons(num) {
 function createName() {
   var balloonContainer = document.getElementById("balloon-container");
   var heading = document.createElement("h1");
-  document.addEventListener('DOMContentLoaded', function() {
-    var button = document.createElement('button');
-    button.type = 'button';
-    button.innerHTML = 'Press me';
-    button.className = 'btn-styled';
- 
-    button.onclick = function() {
-        // …
-    };
- 
-    var container = document.getElementById('container');
-    container.appendChild(button);
-}, false);
-  
   heading.innerHTML = "Happy Birthday Devaaaaaaa";
   heading.className = "heading";
   document.body.append(heading);
