@@ -38,10 +38,10 @@ function createName() {
   document.body.style.backgroundImage = "url('dev.jpg')";
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundSize = "cover";
-  
-  document.querySelector(".naga").style.bottom = "20px";
   const button = document.createElement('button')
   button.innerText = 'Can you click me?'
+  
+  document.querySelector(".naga").style.bottom = "20px";
   audio = document.createElement("audio");
   audio.src = "./atrangi.mp3";
   audio.play();
