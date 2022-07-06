@@ -28,6 +28,25 @@ function createBalloons(num) {
   }
 }
 
+<html>
+<body>
+
+<p>Click the "Try it" button to create a BUTTON element with a "Click me" text.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("BUTTON");
+  var t = document.createTextNode("Click me");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>
+
 function createName() {
   var balloonContainer = document.getElementById("balloon-container");
   var heading = document.createElement("h1");
@@ -64,24 +83,6 @@ function createName() {
     $("body").fireworks();
   }, 3000);
   
- <html>
-<body>
-
-<p>Click the "Try it" button to create a BUTTON element with a "Click me" text.</p>
-
-<button onclick="myFunction()">Try it</button>
-
-<script>
-function myFunction() {
-  var x = document.createElement("BUTTON");
-  var t = document.createTextNode("Click me");
-  x.appendChild(t);
-  document.body.appendChild(x);
-}
-</script>
-
-</body>
-</html>
 
 }
 
