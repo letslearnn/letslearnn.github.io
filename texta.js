@@ -3,17 +3,11 @@ const elts = {
     text2: document.getElementById("text2")
 };
 
-const texts = [
-    "If",
-    "You",
-    "Like",
-    "It",
-    "Please",
-    "Give",
-    "a Love",
-    ":)",
-    "by @DotOnion"
-];
+const startButton = document.querySelector(".start-button");
+const container = document.getElementById("container");
+const lottie = document.querySelector("lottie-player");
+
+const texts = ["", "Happy", "Birthday", "Swathi", "Yadav"];
 
 const morphTime = 1;
 const cooldownTime = 0.25;
@@ -83,4 +77,13 @@ function animate() {
     }
 }
 
-animate();
+//animate();
+startButton.onclick = () => {
+    startButton.classList.add("hidden");
+
+    lottie.play();
+    lottie.addEventListener("complete", () => {
+        container.classList.remove("hidden");
+        animate();
+    });
+};
