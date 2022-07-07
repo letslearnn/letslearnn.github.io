@@ -4,7 +4,8 @@
 <script type="text/javascript">
 var password = "tushar";
 var x = prompt("Enter in the password "," ");
-if (x.toLowerCase() === password.toLowerCase())
+var pass=document.getElementById('password').value;
+if (pass.toLowerCase() === password)
     { window.alert("Come right in \n \n You've entered in the right password");
       window.location = "slides.html";
 }
