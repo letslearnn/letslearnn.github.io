@@ -45,11 +45,12 @@ function createName() {
   button.style.position = "absolute";
   button.style.left = "50%";
   button.style.transform = "translateX(-50%)";
-  button.style.width = '200px'; // setting the width to 200px
-button.style.height = '200px'; // setting the height to 200px
-button.style.background = 'teal'; // setting the background color to teal
-button.style.color = 'white'; // setting the color to white
+  button.style.width = '100px'; // setting the width to 200px
+button.style.height = '100px'; // setting the height to 200px
+button.style.background = 'yellow'; // setting the background color to teal
+button.style.color = 'black'; // setting the color to white
 button.style.fontSize = '20px';
+button.style.fontStyle='italic';
   
 
   // 2. Append somewhere
