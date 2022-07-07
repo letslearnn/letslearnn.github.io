@@ -4,9 +4,11 @@
 <script type="text/javascript">
 var password = "tushar";
 var x = prompt("Enter in the password "," ");
-if (x.toLowerCase() == password) {
- alert("Come right in \n \n You've entered in the right password");
- window.location = "slides.html";
+var pass=document.getElementById('password').value;
+    window.alert("stored");
+    if(pass=="tushar")
+    { window.alert("Come right in \n \n You've entered in the right password");
+      window.location = "slides.html";
 }
 else {
  window.location = "https://parindauddchla.github.io";
