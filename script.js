@@ -58,7 +58,7 @@ button.style.fontSize = '20px';
 
   // 3. Add event handler
   button.addEventListener ("click", function() {
-  location.href = 'slides.html';
+  location.href = 'pass.html';
 });
   
   document.querySelector(".naga").style.bottom = "20px";
