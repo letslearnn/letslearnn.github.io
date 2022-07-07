@@ -229,7 +229,8 @@
 
     <script>
       let slideIndex = 0;
-      showSlides();
+      let hi = false;
+      //showSlides();
       document.querySelector(".naga").style.bottom = "20px";
 
       function showSlides() {
@@ -249,7 +250,14 @@
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
         setTimeout(showSlides, 4000); // Change image every 4 seconds
+        
+        hi = true;
       }
+      
+      function showSl(){
+      if(!hi)showSlides();}
+      
+      showSlides();
     </script>
   </body>
 </html>
