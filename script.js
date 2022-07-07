@@ -42,6 +42,10 @@ function createName() {
   
   var button = document.createElement("button");
   button.innerHTML = "click me to watch different phases of Devansh Mittal";
+  button.style.position = "absolute";
+  button.style.left = "50%";
+  button.style.transform = "translateX(-50%)";
+  
 
   // 2. Append somewhere
   var body = document.getElementsByTagName("body")[0];
